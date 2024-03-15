@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1:hover{
+    color:green
+}
+
+h2 {
+    color:cadetblue
+}
+
+#econ h2 {
+    color: gold
+}
+
+.create-date{
+    color:grey;
+}
+
+#a-sports:hover{
+    color:blueviolet
+}
+
+
