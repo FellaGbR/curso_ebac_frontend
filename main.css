@@ -95,12 +95,12 @@ section h2,
     background-color: rgba(0, 255, 0, 0.1);
 }
 
-#econ{
-    background-color: rgb(255, 241, 222);
-}
-
 #sports .articles article a {
     background-color: rgba(0, 255, 0, 0.8);
+}
+
+#econ{
+    background-color: rgb(255, 241, 222);
 }
 
 #econ .articles article a{
@@ -113,4 +113,12 @@ section h2,
 
 #ciencia .articles article a{
     background-color: rgb(121, 241, 241);
+}
+
+#games{
+    background-color: rgb(255, 201, 201);
+}
+
+#games .articles article a{
+    background-color: rgb(252, 101, 101);
 }
