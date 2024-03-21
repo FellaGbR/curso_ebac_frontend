@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <h1>Formulários</h1>
+</head>
+<body>
+<nav>
+    <a href="index.html" title="Ir para a página Home"> Home</a> <br />
+    <a href="./containers.html" title="Ir para a página de Containers" > Containers</a> <br />
+    <a href="listas.html" title="Ir para a página de Listas" > Listas</a> <br />
+    <a href="tabelas.html" title="Ir para a página de Tabelas" > Tabelas</a> <br />
+    <a href="midia.html" title="Ir para midias" >Mídias</a>
+</nav>
+    <hr />
+<form>
+    <label for="idnome" > Seu nome: </label>
+    <input type="text" placeholder="Seu nome" id="idnome" name="idnome"/> <br>
+    <label for="idmail" > Seu email: </label>
+    <input type="email" type="email" placeholder="Seu email" id="idmail" name="idmail"/> <br>
+    <label for="idtel" > Seu telefone: </label>
+    <input type="tel" placeholder="Seu telefone" id="idtel" name="idtel"/> <br> <br>
+    <label for="idnumber" > Selecione um número: </label>
+    <input type="number" max="10" min="2" step="2" id="idnumber" name="idnumber"/> <br> <br>
+    <input type="file" id="idfile" name="idfile"/> <br /> <br>
+    <label for="idcolor" > Escolha uma cor </label>
+    <input type="color" id="idcolor" name="idcolor"/> <br /> <br>
+    <label for="checkbox-termos">Aceito os termos</label>
+    <input type="checkbox" id="checkbox-termos" />
+    <p>
+        Qual a sua cor favorita?
+    </p>
+    <input type="radio" id="cor-vermelha" name="cor-favorita" /> <label for="cor-vermelha">Vermelho </label>
+    <input type="radio" id="cor-verde" name="cor-favorita" /> <label for="cor-verde">Verde </label>
+    <input type="radio" id="cor-vermelha" name="cor-favorita" /> <label for="cor-azul">Azul </label> <br> <br>
+    <label>Qual o seu filme favorito?</label>
+    <select>
+        <option>Filme A</option>
+        <option>Filme B</option>
+        <option>Filme C</option>
+    </select> <br /> <br>
+    <textarea placeholder="Escreva aqui"></textarea> <br> <br>
+    <button type="submit">Enviar</button>
+    <button>Limpar</button type="reset"> <br>
+    <hr />
+    <label for="iduser" > Usuário: </label>
+    <input type="text" id="iduser" name="iduser" /> <br> <br>
+    <label for="idpassword" > Senha: </label>
+    <input type="password" id="idpassword" name="idpassword" /> <br> <br>
+    <label> 
+        Selecione uma opção:
+        <select name="opcao"> 
+            <option value="opcao1">Opção 1</option> 
+            <option value="opcao2">Opção 2</option> 
+        </select> 
+    </label>
+
+</form>
+</body>
+</html>
