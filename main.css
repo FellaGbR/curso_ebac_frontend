@@ -6,15 +6,23 @@
 
 body > header{
     background-color: #2f2f2f;
+    border-style: outset;
+    border-color: chocolate;
     padding: 16px 0;
     color:aliceblue;
 }
+
+#titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 header .container{
     display:flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 header li {
     display: inline;
@@ -52,6 +60,9 @@ header li a{
 
 section{
     padding: 16px 0;
+    border-style: solid;
+    border-width: -50cm;
+    border-color: #2f2f2f;
 }
 
 section h2,
