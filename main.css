@@ -12,17 +12,14 @@ section .container{
 }
 
 header,
-section h2{
+section h2,
+section h3,
+form button{
     font-family: "Bungee", sans-serif;
     font-weight: normal;
 }
 
-header h1, 
-section h2{
-    font-weight: normal;
-}
-
-body {
+body, input, textarea {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
 }
@@ -85,7 +82,7 @@ section{
     margin-right: 32px;
 }
 
-#contact .container{
+#contact .container {
     display: block;
 }
 
@@ -101,13 +98,15 @@ form button{
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
-    font-family: "Roboto", sans-serif;
-    font-weight: normal;
 }
 
 form textarea{
     resize: none;
     height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
 }
 
 form button{
@@ -136,4 +135,10 @@ input:focus, textarea:focus{
 
 .social-links li a{
     text-decoration: none;
+}
+
+footer{
+    background-color: #182C61;
+    color: aliceblue;
+    padding: 16px 0;
 }
